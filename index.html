@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Web</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo1.png" alt="logo de la empresa">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <a href="#contacto" class="cta">Contáctanos</a>
+    </header>
+
+    <!-- Sección principal -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Bienvenidos a Nuestra Empresa</h1> 
+            <p>Soluciones Profesionales para tus necesidades</p>
+            <a href="#servicios" class="hero-button">Saber más</a> 
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="service-cards">
+            <div class="card">
+                <img src="img/logo1.png" alt="Consultoria">
+                <h3>Consultoría</h3>
+                <p>Asesoramiento especializado para tu negocio.</p>
+            </div>
+            <div class="card">
+                <img src="img/logo1.png" alt="Desarrollo">
+                <h3>Desarrollo</h3>
+                <p>Desarrollo de aplicaciones personalizadas.</p>
+            </div>
+            <div class="card">
+                <img src="img/logo1.png" alt="Soporte  ">
+                <h3>Soporte</h3>
+                <p>Soporte técnico para resolver tus problemas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="proyectos" class="projects">
+        <h2>Proyectos Destacados</h2>
+        <div class="project-gallery">
+            <div class="project">
+                <img src="img/proyecto1.jpg" alt="Proyecto 1">
+                <p>Proyecto 1 - Descripción breve.</p>
+            </div>
+            <div class="project">
+                <img src="img/proyecto2.jpg" alt="Proyecto 2">
+                <p>Proyecto 2 - Descripción breve.</p>
+            </div>
+            <div class="project">
+                <img src="img/proyecto3.jpg" alt="Proyecto 3">
+                <p>Proyecto 3 - Descripción breve.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contact">
+        <h2>Contáctanos</h2>
+        <p>Déjanos un mensaje y nos pondremos en contacto contigo lo antes posible.</p>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Mi Empresa. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="footer-socials">
+                <a href="#"><img src="img/facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="img/twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="img/instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
