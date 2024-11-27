@@ -391,3 +391,15 @@ footer {
 .whatsapp-button img:hover {
     transform: scale(1.1);
 }
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.company-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+}
